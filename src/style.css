@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+lil-gui { 
+    --width: 400px;
+    --name-width: 65%;
+    --widget-color:#ff0000;
+    --padding: 2px;
+  }
